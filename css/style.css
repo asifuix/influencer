@@ -1,0 +1,95 @@
+/* common css */
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Outfit', sans-serif;
+}
+img{
+    width: 100%;
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+section{
+    padding: 40px 0;
+}
+/* common css */
+/* header css */
+header{
+    padding: 35px 0;
+}
+.logo a{
+    font-size: 26px;
+    font-weight: 700;
+    text-decoration: none;
+    color: #3A3A3A;
+}
+.header-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul{
+    display: flex;
+}
+nav ul li{
+    list-style: none;
+    margin-left: 30px;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: #3A3A3A;
+    transition: all 0.5s ease-in-out;
+    padding-bottom: 5px;
+}
+nav ul li a i{
+    font-size: 20px;
+}
+/* header css */
+/* banner section css */
+.banner-content{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.banner-text{
+    width: 45%;
+    flex-basis: 45%;
+}
+.banner-text h1{
+    font-size: 52px;
+    font-weight: 700;
+    color: #3A3A3A;
+}
+.banner-text p{
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    color: #3A3A3A;
+    margin: 20px 0;
+}
+.banner-text a{
+    text-decoration: none;
+    background-color: #E02C6D;
+    color: #fff;
+    font-size: 16px;
+    padding: 10px 30px;
+    display: inline-block;
+    border-radius: 25px;
+}
+.banner-text a i{
+    margin-left: 5px;
+    font-size: 14px;
+}
+.banner-img{
+    width: 40%;
+    flex-basis: 40%;
+}
+/* banner section css */
